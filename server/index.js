@@ -11,7 +11,7 @@ const init = async () => {
 		method: 'GET',
 		path: '/',
 		handler: (request, h) => {
-			return 'Hello World!';
+			return 'welcome to hapijs starter kit';
 		}
 	});
 	await server.start();
