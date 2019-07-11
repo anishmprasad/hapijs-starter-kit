@@ -1,25 +1,26 @@
 {
-  "name": "hapijs-starter-kit",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anishmprasad/hapijs-starter-kit.git"
-  },
-  "keywords": [
-    "hapijs"
-  ],
-  "author": "anish.m.prasad",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anishmprasad/hapijs-starter-kit/issues"
-  },
-  "homepage": "https://github.com/anishmprasad/hapijs-starter-kit#readme",
-  "dependencies": {
-    "@hapi/hapi": "^18.3.1"
-  }
+	"name": "hapijs-starter-kit",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anishmprasad/hapijs-starter-kit.git"
+	},
+	"keywords": [
+		"hapijs"
+	],
+	"author": "anish.m.prasad",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/anishmprasad/hapijs-starter-kit/issues"
+	},
+	"homepage": "https://github.com/anishmprasad/hapijs-starter-kit#readme",
+	"dependencies": {
+		"@hapi/hapi": "^18.3.1",
+		"nodemon": "^1.19.1"
+	}
 }
